@@ -1,0 +1,118 @@
+*{
+  background-color: #d9ff66;
+}
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  background-color: aqua;
+  width: 50vw;
+  height: 10vh;
+  margin: auto;
+  margin-top: 50px;
+  border: solid 2px;
+  border-radius: 12px;
+  box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
+ 
+}
+
+.heading h1{
+  margin-bottom: 12px;
+  background-color: aqua;
+}
+
+
+.App-link {
+  color: #1b2725;
+}
+
+.Scoreboard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.counter{
+  display:flex;
+  flex-direction: column;
+  gap: 5vh;
+  width: 40vw;
+  margin-top: 5vh;
+}
+
+.Players{
+  display: flex;
+   gap: 2vw;
+  border: 2px solid;
+  margin-right: 35px;
+  margin-left: 35px;
+  box-shadow: 0 10px 10px -5px;
+  background-color: azure;
+}
+
+.name{
+     font-size: 2vw;
+     margin-left: 2.5vw;
+     min-width: 12px;
+     background-color: azure;
+}
+
+.foo{
+  display: flex;
+  column-gap: 1vw;
+  justify-content: space-between ;
+  margin-left: 8vw;
+  margin-right: 13vw;
+  background-color: azure;
+}
+.score{
+ font-size: 1rem;
+ font-weight: bold;
+ border: 0.1vw solid black;
+ border-radius: 50%;
+ background-color: #cc99ff;
+ padding: 12px;
+
+}
+
+.btn1{
+  border: 2px solid  black;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: bold ;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 5vh;
+  width: 3vw;
+
+
+  
+
+}
+
+.btn2{
+  border: 2px solid black;
+  background-color: green;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 6vh;
+  width: 3vw;
+  
+}
+
+
+
